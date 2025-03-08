@@ -130,13 +130,20 @@ main p {
     line-height: 1em;
 }
 
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; 
+    height: auto; 
 }
 
 main img {
-    display: block; margin: auto;
+    display: block;
+    margin: 0px;
     margin-bottom: 80px 80px;
 }
 
