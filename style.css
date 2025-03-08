@@ -6,16 +6,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; 
-    }
-
-    @media (max-width: 480px) {
-        header {
-            padding-top: 5px;
-            min-height: 80px;
-     }    
 
 :root {
     --cor0:#FFC0CB;
@@ -46,7 +36,7 @@ p {
 
 header {
     background-image: linear-gradient(to bottom,var(--cor9),var(--cor9));
-    min-height: 15px;
+    min-height: 10px;
     text-align: center;
     padding-top: 10px;
     min-height: 100px;
@@ -94,9 +84,8 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+   
+
 }
 
 main h1 {
@@ -113,6 +102,11 @@ main p {
     font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 main img {
