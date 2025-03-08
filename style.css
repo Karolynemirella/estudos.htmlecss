@@ -6,6 +6,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    @media (max-width: 480px) {
+        header {
+            padding-top: 5px;
+            min-height: 80px;
+     }    
 
 :root {
     --cor0:#FFC0CB;
@@ -38,13 +48,14 @@ header {
     background-image: linear-gradient(to bottom,var(--cor9),var(--cor9));
     min-height: 15px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    min-height: 100px;
 }
 
 
 header > h1 {
     color: white;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
@@ -57,16 +68,17 @@ header > h1 {
 
 nav {
     background-color: var(--cor15);
-    padding: 30px;
+    padding: 15px;
     
 }
 
 nav > a {
     color: var(--cor3);
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.9;
     transition-duration: .5s;
 }
 
@@ -78,10 +90,10 @@ nav > a:hover {
 
 main {
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    padding: 50px;
+    padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -91,15 +103,15 @@ main h1 {
     color: var(--cor9);
     font-family: var(--fonte-android);
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1.2em;
-    line-height: 1em;
+    font-size: 1em;
+    line-height: 1.5em;
     margin-bottom: 30px;
 }
 
@@ -143,7 +155,7 @@ footer {
     background-color: var(--cor9);
     color: var(--cor0);
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 5px;
 }
 
