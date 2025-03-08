@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('LexendZetta-VariableFont_wght.ttf');
+}
+
 @font-face {
     font-family: 'DynaPuff', serif;
     src:url('DynaPuff-VariableFont_wdth\,wght.ttf') format('ttf')
@@ -34,6 +41,7 @@
     --cor15:#FFF0F5;
     --cor16:#E6E6FA;
 
+    --fonte-padrao: 'Lexend Zetta','cursive';
     --fonte-destaque:'DynaPuff', 'cursive';
 }
 
@@ -94,6 +102,7 @@ nav > a:hover {
 }
 
 main {
+    font-family: var(--fonte-padrao);
     min-width: 300px;
     max-width: 1000%;
     margin: auto;
@@ -109,6 +118,7 @@ main h1 {
 }
 
 main p {
+    font-family: var(--fonte-padrao);
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -144,6 +154,7 @@ div.video {
 }
 
 ol {
+    font-family: var(--fonte-padrao);
     list-style-type: square;
     margin: 20px;
     padding: 20px;
@@ -152,10 +163,12 @@ ol {
 }
 
 li {
+    font-family: var(--fonte-padrao);
     padding: 5px;
 }
 
 ol li {
+    font-family: var(--fonte-padrao);
     margin-bottom: 30px;
 }
 
