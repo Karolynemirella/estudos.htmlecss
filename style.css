@@ -7,6 +7,7 @@
 }
 
 
+
 :root {
     --cor0:#FFC0CB;
     --cor1:#D3D3D3;
@@ -30,6 +31,7 @@ body {
     background-color: var(--cor15);
 }
 
+
 p {
     margin: 15px 0px;
 }
@@ -39,7 +41,7 @@ header {
     min-height: 10px;
     text-align: center;
     padding-top: 10px;
-    min-height: 100px;
+    min-height: 25px;
 }
 
 
@@ -80,12 +82,10 @@ nav > a:hover {
 
 main {
     min-width: 300px;
-    max-width: 90%;
+    max-width: 1000%;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-   
-
 }
 
 main h1 {
@@ -100,8 +100,7 @@ main p {
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
-    line-height: 1.5em;
-    margin-bottom: 30px;
+    line-height: 1em;
 }
 
 img {
