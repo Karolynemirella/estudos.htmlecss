@@ -47,6 +47,7 @@
 
 body {
     background-color: var(--cor15);
+
 }
 
 
@@ -61,6 +62,8 @@ header {
     text-align: center;
     padding-top: 10px;
     min-height: 25px;
+    width: 1905px;
+
 }
 
 
