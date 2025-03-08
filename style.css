@@ -2,11 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
 
 @font-face {
-    font-family: 'Lexend Zetta';
-    src: url('LexendZetta-VariableFont_wght.ttf');
+    font-family: 'Average Sans';
+    src: url('AverageSans-Regular.ttf') format('ttf')
 }
 
 @font-face {
@@ -42,7 +42,7 @@
     --cor16:#E6E6FA;
 
     --fonte-padrao: 'Lexend Zetta','cursive';
-    --fonte-destaque:'DynaPuff', 'cursive';
+    --fonte-destaque:'Average Sans', 'cursive';
 }
 
 body {
