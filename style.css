@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Average Sans';
-    src: url('AverageSans-Regular.ttf') format('ttf')
+    src: url('AverageSans-Regular.ttf') format('ttf');
 }
 
 @font-face {
     font-family: 'DynaPuff', serif;
-    src:url('DynaPuff-VariableFont_wdth\,wght.ttf') format('ttf')
+    src:url('DynaPuff-VariableFont_wdth\,wght.ttf') format('ttf');
 }
 
 *{
@@ -42,7 +42,7 @@
     --cor16:#E6E6FA;
 
     --fonte-padrao: 'Lexend Zetta','cursive';
-    --fonte-destaque:'Average Sans', 'cursive';
+    --fonte-destaque:'DynaPuff', 'cursive';
 }
 
 body {
