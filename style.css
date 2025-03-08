@@ -25,6 +25,7 @@
     --cor13:#ADD8E6;
     --cor14:#FDF5E6;
     --cor15:#FFF0F5;
+    --cor16:#E6E6FA;
 }
 
 body {
@@ -113,9 +114,16 @@ main img {
     margin-bottom: 80px 80px;
 }
 
+#nome {
+    text-align: right;
+    color: var(--cor16);
+    
+}
+
 #curiosidade {
     display: block;
-    margin: 0;
+    margin: 20px;
+    padding: 10px;
 }
 
 div.video {
@@ -142,6 +150,20 @@ ol li {
 ol li::marker {
     color:var(--cor3) ;
     font-weight: bold;
+}
+
+a {
+    color: var(--cor12);
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 20px;
+}
+
+a:hover {
+    background-color: var(--cor8);
+    color: var(--cor4);
+    border-radius: 5px;
 }
 
 footer {
